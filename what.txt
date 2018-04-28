@@ -1,1 +1,25 @@
 what
+[root@ksyoweb01 test]# git pull github master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:ShiDongBo/test
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ what.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 what.txt
+[root@ksyoweb01 test]# ls
+hello.txt  README.md  what.txt
+[root@ksyoweb01 test]# git push github master
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 547 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To git@github.com:ShiDongBo/test.git
+   e73f7c3..24b99fc  master -> master
+[root@ksyoweb01 test]#
+
