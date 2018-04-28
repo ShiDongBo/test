@@ -1,2 +1,8 @@
-hello.txt
-README.md
+檔案系統                 1K-區段    已用     可用 已用% 掛載點
+/dev/mapper/centos-root 37300436 2209720 35090716    6% /
+devtmpfs                 3996276       0  3996276    0% /dev
+tmpfs                    4005888       0  4005888    0% /dev/shm
+tmpfs                    4005888  328256  3677632    9% /run
+tmpfs                    4005888       0  4005888    0% /sys/fs/cgroup
+/dev/sda1                 508588  123692   384896   25% /boot
+tmpfs                     801180       0   801180    0% /run/user/0
